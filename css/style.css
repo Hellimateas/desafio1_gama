@@ -30,3 +30,92 @@ nav ul li{
   font-weight: 700;
   padding: 7px 30px 7px 30px;
 }
+
+main{
+  display: flex;
+}
+
+article{
+  width: 600px;
+  margin: 200px 150px 250px 100px;
+}
+
+article h4{
+  color: #FFA000;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-bottom: 50px;
+}
+.box{
+  display: flex;
+  column-gap: 20px;
+}
+
+.tags{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+
+color: #176902;
+border: 1px solid #176902;
+border-radius: 47px;
+padding: 2px 10px;
+}
+
+article p,
+article pre p{
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-transform: lowercase;
+
+color: #000000;
+}
+article h6{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin: 100px 0 40px 0;
+}
+
+aside{
+  margin-top: 300px;
+}
+
+.box-aside{
+  width: 350px;
+  height: 410px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.box-aside p{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 32px;
+}
+
+aside h5{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+margin-bottom: 30px;
+
+text-transform: lowercase;
+
+color: #FFA000;
+}
